@@ -12,7 +12,7 @@ function main() {
 
     #make sure wine and winetricks package is already installed
     package_installed wine
-    package_installed md5sum
+    package_installed coreutils
     package_installed winetricks
 
     RESOURCES_PATH="$SCR_PATH/resources"
